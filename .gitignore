@@ -1,2 +1,6 @@
 # rendered file
 ./CLICKMEYOUDUMMY
+
+# mac things
+.DS_Store
+
