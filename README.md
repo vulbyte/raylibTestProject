@@ -40,8 +40,8 @@ goals for this project:
 
 ## weapon stuff
 
-- [ ] bazooka (aoe) gun  
-       : dmg: 2/4 knockback: 3/4
+- [ ] bazooka (1/2 dmg for self)
+      : dmg: 2/4 knockback: 3/4
 - [ ] melee  
        : dmg: 1/4 knockback: 4/4
 - [ ] sniper  
