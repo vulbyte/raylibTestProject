@@ -79,6 +79,12 @@ goals for this project:
 - jump
   : `spacebar`
 
+- cursor aim
+  : `cursor of mouse`
+
+- attack
+  : `left click`, `enter`
+
 ### movement mode (default)
 
 - movement
@@ -97,6 +103,3 @@ goals for this project:
 
 - decrease power
   : <`s`, <`k`>, or <`⬇️`>
-
-- attack
-  : `enter`
