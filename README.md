@@ -27,13 +27,14 @@ goals for this project:
 - [ ] basic movement
 - [ ] jump with 8 direction
 - [ ] animations
+- [ ] aiming based on mouse
 
 ## world stuff
 
 - [ ] random generation ground
 - [ ] wind
 - [ ] random spawning shields (ceramic plates basically)
-- [ ] weather effects (maybe effects ongame)
+- [ ] weather effects (maybe effects on game)
 - [ ] random backgrounds (to make levels feel unique)
 
 ## weapon stuff
@@ -46,3 +47,13 @@ goals for this project:
        : dmg: 4/4 knockback: 1/4
 - [ ] grenade
       : dmg: 3/4 knockback: 3/4
+
+### stretch goals (no promises)
+
+- [ ] online play
+- [ ] ai (for single player play)
+- [ ] classes for each character
+      : private (no modifier)
+      : glass canon (2x dmg, but 0.5x health)
+      : tank (1.5x health, but 0.75x movement)
+      : scout (0.8 health, 2x movement, 2x jump)
