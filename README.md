@@ -60,7 +60,8 @@ goals for this project:
 - [ ] levelution
       : grassland (no effect)
       : desert ()
-      : volcano ()
+      : volcano (random metior showers)
+      : candyland (2x the drops)
 
 ---
 
