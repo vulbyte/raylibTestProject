@@ -36,17 +36,18 @@ goals for this project:
 - [ ] random spawning shields (ceramic plates basically)
 - [ ] weather effects (maybe effects on game)
 - [ ] random backgrounds (to make levels feel unique)
+- [ ] death pit
 
 ## weapon stuff
 
 - [ ] bazooka (aoe) gun  
-       : dmg: 2/4 knockback: 2/4
+       : dmg: 2/4 knockback: 3/4
 - [ ] melee  
        : dmg: 1/4 knockback: 4/4
 - [ ] sniper  
        : dmg: 4/4 knockback: 1/4
 - [ ] grenade
-      : dmg: 3/4 knockback: 3/4
+      : dmg: 3/4 knockback: 2/4
 
 ### stretch goals (no promises)
 
@@ -60,7 +61,7 @@ goals for this project:
 - [ ] levelution
       : grassland (no effect)
       : desert ()
-      : volcano (random metior showers)
+      : volcano (random meteor showers)
       : candyland (2x the drops)
 
 ---
