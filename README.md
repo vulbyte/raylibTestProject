@@ -57,3 +57,44 @@ goals for this project:
       : glass canon (2x dmg, but 0.5x health)
       : tank (1.5x health, but 0.75x movement)
       : scout (0.8 health, 2x movement, 2x jump)
+- [ ] levelution
+      : grassland (no effect)
+      : desert ()
+      : volcano ()
+
+---
+
+## controls
+
+### general
+
+- pause
+  : `esc`, or `tab`
+
+- toggle movement/attack mode
+  : `t`, `right-click`
+
+- jump
+  : `spacebar`
+
+### movement mode (default)
+
+- movement
+  : <`w`, `a`, `s`, `d`>, <`i`, `j`, `k`, `l`>, or <`⬆️`, `⬅️`, `⬇️`, `➡️`>
+
+### attack mode
+
+- rotate aim clock-wise(CW)
+  : <`d`,>, <`l`>, or <`➡️`>
+
+- rotate counter-clock-wise(CCW)
+  : <`a`>, <`k`>, or <`⬅️`>
+
+- increase power
+  : <`w`, <`i`>, or <`⬆️`>
+
+- decrease power
+  : <`s`, <`k`>, or <`⬇️`>
+
+- attack
+  : `enter`
