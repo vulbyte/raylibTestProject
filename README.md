@@ -40,7 +40,7 @@ goals for this project:
 
 ## weapon stuff
 
-- [ ] bazooka (1/2 dmg for self)
+- [ ] bazooka (0.5x dmg for self)
       : dmg: 2/4 knockback: 3/4
 - [ ] melee  
        : dmg: 1/4 knockback: 4/4
