@@ -10,6 +10,10 @@ goals for this project:
 
 # turn based tank game
 
+## URGENT TO-DO's
+
+- [ ] controller layout
+
 ## general stuff
 
 - [ ] main menu
