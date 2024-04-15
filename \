@@ -37,20 +37,17 @@ goals for this project:
 - [ ] weather effects (maybe effects on game)
 - [ ] random backgrounds (to make levels feel unique)
 - [ ] death pit
-- [ ] terrain deformation
 
 ## weapon stuff
 
 - [ ] bazooka (0.5x dmg for self)
-      : dmg: 3/5 knockback: 4/5 land-deformation: 4/5
+      : dmg: 2/4 knockback: 3/4
 - [ ] melee  
-       : dmg: 1/5 knockback: 5/5 land-deformation: 1/5
+       : dmg: 1/4 knockback: 4/4
 - [ ] sniper  
-       : dmg: 4/5 knockback: 2/5 land-deformation: 2/5
+       : dmg: 4/4 knockback: 1/4
 - [ ] grenade
-      : dmg: 4/5 knockback: 3/5 land-deformation: 3/5
-- [ ] drill arms
-      : dmg: 2/5 knockback: 1/5 land-deformation: 5/5
+      : dmg: 3/4 knockback: 2/4
 
 ### stretch goals (no promises)
 
