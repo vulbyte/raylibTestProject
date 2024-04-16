@@ -1,7 +1,24 @@
+//clibs
+#include<iostream>
+#include<fstream>
+#include<string>
+//raylib streams
 #include "raylib.h"
 #include <raymath.h>
 
-int main(void) {
+int main(void) {    
+    fstream settings;
+    FileName.open("../user/settings.txt", ios::out); //this isn't closed as it will be loaded perpetuially
+    if(!setting){
+        cout<<"error, unable to load file"
+    }
+    else {
+        cout<<"file read successfully";
+        File          
+    }
+
+    
+
     InitWindow(400, 244, "template");
 
     typedef enum GameState {TITLE, GAMEPLAY, SETTINGS, ENDGAME} GameState;

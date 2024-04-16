@@ -1,11 +1,5 @@
 # First play with raylib:
 
-working build command is:
-
-```bash
-clang -I lib -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL ./lib/libraylib.a ./src/main.cpp -o CLICKTHISDUMMY
-```
-
 goals for this project:
 
 # turn based tank game
@@ -114,3 +108,27 @@ goals for this project:
 
 - decrease power
   : <`s`, <`k`>, or <`⬇️`>
+
+## TECHNICAL STUFF:
+
+### build command:
+
+recommended build command:
+
+```bash
+cmake
+```
+
+(not recommended) if needed, edit the cmakefile.txt and uncomment the flags to use clang++. working build command for clang++ is:
+
+```bash
+clang -I lib -framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL ./lib/libraylib.a ./src/main.cpp -o CLICKTHISDUMMY
+```
+
+### command to rebuild cmake files to lsp:
+
+```bash
+cmake -S . -G "Unix Makefiles" -B cmake
+```
+
+if you here to rebuild make files [here's a reddit thread to help](https://www.reddit.com/r/neovim/comments/17rhvtl/guide_how_to_use_clangd_cc_lsp_in_any_project/)

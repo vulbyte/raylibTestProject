@@ -1,0 +1,2 @@
+/Volumes/970p2tb/projects/0116-raylibTest/template/cmake/CMakeFiles/edit_cache.dir
+/Volumes/970p2tb/projects/0116-raylibTest/template/cmake/CMakeFiles/rebuild_cache.dir
