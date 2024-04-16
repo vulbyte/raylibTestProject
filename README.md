@@ -61,10 +61,10 @@ goals for this project:
 - [ ] online play
 - [ ] ai (for single player play)
 - [ ] classes for each character
-      : private (no modifier)
-      : glass canon (2x dmg, but 0.5x health)
-      : tank (1.5x health, but 0.75x movement)
-      : scout (0.8 health, 2x movement, 2x jump)
+      : Private (no modifier)
+      : Assault (2x dmg, but 0.5x health)
+      : Tank (1.5x health, but 0.75x movement)
+      : Scout (0.8 health, 2x movement, 2x jump)
 - [ ] levelution
       : grassland (no effect)
       : desert (high winds, low visibility)
@@ -72,6 +72,8 @@ goals for this project:
       : candyland (2x the drops)
       : rain-forest (water level slowly raises)
       : earth-quake (randomizes terrain)
+- [ ] puddles that build in rain
+- [ ] different types of liquids
 
 ---
 

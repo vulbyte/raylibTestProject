@@ -1,0 +1,73 @@
+// VIDEO
+screenHeight: 800;
+screenWidth: 500;
+
+textureFiltering: NEAREST;
+
+// AUDIO
+weaponSFX: 80;
+otherSFX: 80;
+music: 80: 
+
+// DEFAULTS ARE HARD CODED, JUST ADJUST THE MULTIPLIER. max value is: 9,223,372,036,854,775,807
+// SQUAD
+
+teamInfo: {
+    name: "Mighty Worms";
+    color: 000, 255, 255;
+}
+
+charPrivate: { // stock
+    name: Private;
+    hat: none;
+    colorSecondary: 255, 000, 081;
+    dmg: 1.0;
+    selfDMG: 1.0;
+    hp: 1.0;
+    sld: 1.0;
+    spd: 1.0;
+    jmp: 1.0;
+    waterDMG: 1.0;
+    envDMG: 1.0;
+}
+charAssault: { // glass canon
+    name: Assault;
+    hat: helmet;
+    colorSecondary: 000, 255, 000;
+    dmg: 2.0;
+    selfDMG: 0.5;
+    hp: 0.5;
+    sld: 0.8
+    spd: 1.2; 
+    jmp: 1.2;
+    waterDMG: 0.8;
+    envDMG: 0.8;
+}
+charTank: { // guess
+    name: Tank;
+    colorSecondary: 255, 000, 000;
+    hat: rhinoHelm;
+    dmg: 1.0;
+    selfDMG: 0.8;
+    hp: 1.5;
+    sld: 2;
+    spd: 1.2; 
+    jmp: 0.8;
+    waterDMG: 0.6;
+    envDMG: 0.6;
+}
+charScout: { // high mobility
+    name: Scout;
+    colorSecondary: 255, 200, 000;
+    hat: cap;
+    dmg: 0.8;
+    selfDMG: 1.0;
+    hp: 0.8;
+    sld: 0.3;
+    spd: 2.0;
+    jmp: 1.2;
+    spd: 1.2; 
+    waterDMG: 1.6;
+    envDMG: 1.4;
+}
+
