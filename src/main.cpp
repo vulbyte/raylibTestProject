@@ -1,25 +1,33 @@
-//clibs
-#include<iostream>
+// c libs
 #include<fstream>
-#include<string>
-//raylib streams
-#include "raylib.h"
+#include<iostream>
+#include<string.h>
+// versioning
+// #include"versioning.h"
+// raylib streams
+#include <raylib.h>
 #include <raymath.h>
 
 int main(void) {    
-    fstream settings;
-    FileName.open("../user/settings.txt", ios::out); //this isn't closed as it will be loaded perpetuially
-    if(!setting){
-        cout<<"error, unable to load file"
+
+    std::fstream settings;
+    settings.open("../user/settings.txt", std::ios::out); //this isn't closed as it will be loaded perpetuially
+                                                          
+    //these are chosen to be the smallest likely monitor still produced
+    int screenWidth = 640;
+    int screenHeight = 480;
+
+    if(!settings){
+        std::cout<<"error, unable to load file"<<std::endl;
     }
     else {
-        cout<<"file read successfully";
-        File          
+        std::cout<<"file read successfully"<<std::endl;
+        //load settings for window
+        //screenWidth =  
+        //screenHeight =
     }
 
-    
-
-    InitWindow(400, 244, "template");
+    InitWindow(screenWidth, screenHeight, "busterz");
 
     typedef enum GameState {TITLE, GAMEPLAY, SETTINGS, ENDGAME} GameState;
     GameState currentGameState = TITLE;
@@ -27,7 +35,7 @@ int main(void) {
     // TODO: SAVE FILE FOR SETTINGS
     // TODO: SAVE FILE FOR PROGRESS
 
-    while(!WindowShouldClose(currentGameState){
+    while(!WindowShouldClose()){
         switch(currentGameState){
             default:
             case TITLE:{
@@ -43,8 +51,10 @@ int main(void) {
 
             } break;
         }
+        
         BeginDrawing();
-        ClearBackground(RAYWHITE);
+
+        ClearBackground(MAGENTA);
 
         EndDrawing();
     }

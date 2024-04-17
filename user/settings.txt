@@ -2,6 +2,8 @@
 screenHeight:800;
 screenWidth:500;
 
+targetFPS:60;
+
 textureFiltering:NEAREST;
 
 // AUDIO

@@ -1,0 +1,3 @@
+// the configured options and settings
+# define Busterz_VERSION_MAJOR @Busters_VERSION_MAJOR@
+# define Busterz_VERSION_MINOR @Busters_VERSION_MINOR@

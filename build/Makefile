@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Volumes/970p2tb/projects/0116-raylibTest/template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/970p2tb/projects/0116-raylibTest/template/cmake
+CMAKE_BINARY_DIR = /Volumes/970p2tb/projects/0116-raylibTest/template/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/970p2tb/projects/0116-raylibTest/template/cmake/CMakeFiles /Volumes/970p2tb/projects/0116-raylibTest/template/cmake//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/970p2tb/projects/0116-raylibTest/template/build/CMakeFiles /Volumes/970p2tb/projects/0116-raylibTest/template/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/970p2tb/projects/0116-raylibTest/template/cmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/970p2tb/projects/0116-raylibTest/template/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,43 +116,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Busterz
-
-# Build rule for target.
-Busterz: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Busterz
-.PHONY : Busterz
-
-# fast build rule for target.
-Busterz/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Busterz.dir/build.make CMakeFiles/Busterz.dir/build
-.PHONY : Busterz/fast
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Busterz.dir/build.make CMakeFiles/Busterz.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Busterz.dir/build.make CMakeFiles/Busterz.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Busterz.dir/build.make CMakeFiles/Busterz.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Busterz"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 
